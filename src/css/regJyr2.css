@@ -1,0 +1,43 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+input.regJyr2Input.globalInput {
+    width: 90%;
+    padding: 15px 10px;
+}
+
+.regJyr2Button.margin_30 {
+    margin-right: 30px;
+}
+
+@media (max-width: 400px) {
+    .regJyr2Input.globalInput {
+        font-size: 14px;
+        letter-spacing: 0.01px;
+        padding: 15px 0px;
+    }
+    .margin_30 {
+        margin-right: 45px;
+    }
+    .regJyr2Button.globalButton {
+        padding: 16px 35px;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .regJyr2div.divRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .regJyr2div.divColumn_50 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+.globalButton {
+    cursor: pointer;
+    background: #C10100;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    padding: 17px 85px;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.globalButton:hover {
+    background: #880000
+}

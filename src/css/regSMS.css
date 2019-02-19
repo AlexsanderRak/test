@@ -1,0 +1,36 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+
+.regSMS_input {
+    outline: none;
+    border: none;
+    width: 90%;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    background: #F2F2F2;
+    padding: 0px;
+}
+
+.regSMS_divInput.globalInput:hover .regSMS_input {
+    background: rgb(206, 204, 204);
+}
+
+.regSMS_button.globalButton {
+    padding: 17px 155px;
+}
+
+@media (max-width: 400px) {
+    .regSMS_divInput.globalInput {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .regSMS_button.globalButton {
+        padding: 16px 105px;
+        border-radius: 30px;
+        margin: 10px 0;
+    }
+}

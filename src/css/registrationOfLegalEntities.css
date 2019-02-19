@@ -1,0 +1,66 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+@import 'globalLink.css';
+
+
+.registrationOfLegalEntities_divInput.globalInput {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px 5px;
+}
+
+.registrationOfLegalEntities_divInput:hover {
+    background: rgb(206, 204, 204);
+}
+
+.registrationOfLegalEntities_divInput:hover .registrationOfLegalEntities_input {
+    background: rgb(206, 204, 204);
+}
+
+.registrationOfLegalEntities_Link.globalLink {
+    padding: 17px 65px;
+}
+
+.registrationOfLegalEntities_button.globalButton {
+    padding: 17px 85px;
+}
+
+
+@media (max-width: 400px) {
+    .registrationOfLegalEntities_divInput.globalInput {
+        font-size: 14px;
+        letter-spacing: 0.01px;
+        padding: 15px 0px;
+    }
+    .registrationOfLegalEntities_Link.globalLink {
+        padding: 17px 35px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .registrationOfLegalEntities_button.globalButton {
+        padding: 16px 35px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .registrationOfLegalEntities.divRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .registrationOfLegalEntities.divColumn_50 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}

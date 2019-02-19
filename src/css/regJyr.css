@@ -1,0 +1,32 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+
+.regJyrButton.globalButton {
+    padding: 17px 55px;
+}
+
+.regJyrButton.margin_30 {
+    margin-right: 30px;
+}
+
+@media (max-width: 400px) {
+    .regJyrInput.globalInput {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .regJyrButton.globalButton {
+        padding: 16px 35px;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .regJyrdivRow.divRow {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

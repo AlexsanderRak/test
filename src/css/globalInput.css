@@ -1,0 +1,16 @@
+.globalInput {
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    background: #F2F2F2;
+    text-align: center;
+    padding: 15px 45px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.globalInput:hover {
+    background: rgb(206, 204, 204);
+}

@@ -1,0 +1,41 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+
+
+.startPage_divButton.divButton {
+    flex-direction: column;
+    align-items: center;
+}
+
+.startPage_button.globalButton {
+    width: 100%;
+    padding: 17px 65px;
+    margin: 10px 0;
+}
+
+.wrapper .startPage_textLink {
+    display: flex;
+    justify-self: end;
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+    color: #880000;
+    margin-bottom: 20px;
+}
+
+.startPage_button:hover {
+    background: #880000
+}
+
+@media (max-width: 400px) {
+    .startPage_button.globalButton {
+        padding: 16px 35px;
+    }
+
+    .wrapper .startPage_textLink {
+        margin-bottom: 80px;
+    }
+}

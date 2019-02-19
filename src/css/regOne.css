@@ -1,0 +1,78 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+@import 'globalLink.css';
+
+
+.regOne_divInput.globalInput {
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.regOne_divInput:hover .regOne_input {
+    background: rgb(206, 204, 204);
+}
+
+.regOne_divInput img {
+    position: relative;
+    top: 10px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.regOne_input {
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    background: #F2F2F2;
+    padding: 0px;
+}
+
+.regOne_button.margin_30 {
+    margin-right: 30px;
+}
+
+.regOne_button.globalButton {
+    padding: 17px 55px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 400px) {
+    .regOne_divInput.globalInput {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+
+    .regOne_input {
+        font-size: 18px;
+    }
+
+    .regOne_divInput img {
+        top: 10px;
+        left: 5px;
+    }
+
+    .margin_30 {
+        margin-right: 45px;
+    }
+
+    .regOne_button.globalButton {
+        padding: 16px 35px;
+        border-radius: 30px;
+        margin-top: 10px ;
+    }
+
+    .title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .regOne_divButton.divButton {
+        margin-bottom: 110px;
+    }
+}

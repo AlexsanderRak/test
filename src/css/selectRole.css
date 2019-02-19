@@ -1,0 +1,31 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+
+
+.selectRole_divButton.divButton {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.selectRole_button.globalButton {
+    width: 100%;
+    padding: 17px 65px;
+    margin: 10px 0;
+}
+
+@media (max-width: 400px) {
+    .selectRole_button.globalButton  {
+        padding: 16px 35px;
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .selectRole_divButton.divButton{
+        margin-bottom: 90px;
+    }
+}

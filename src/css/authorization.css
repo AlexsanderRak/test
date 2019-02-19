@@ -1,0 +1,96 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+
+.authorization_titleInput {
+    float: left;
+    margin-bottom: 20px;
+}
+
+.globalInput:hover .authorization_input {
+    background: rgb(206, 204, 204);
+}
+
+.authorization_divbutton.divButton {
+    flex-direction: column;
+}
+
+.authorization_divbutton .globalButton {
+    margin: 10px 0;
+    padding: 17px 65px;
+}
+
+.authorization_button.globalButton {
+    margin: 10px 0;
+    padding: 17px 65px;
+}
+
+.authorization_button.margin_30 {
+    margin-right: 30px;
+}
+
+.globalInput img {
+    position: relative;
+    top: 7px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.authorization_input {
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    background: #F2F2F2;
+    padding: 0px;
+}
+
+.wrapper .authorization_textLink {
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 18px;
+    color: #880000;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 400px) {
+    .authorization_divInput.globalInput {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .authorization_divInput img {
+        margin-right: 15px;
+    }
+    .authorization_input {
+        font-size: 18px;
+    }
+    .margin_30 {
+        margin-right: 45px;
+    }
+    .authorization_divInput img {
+        top: 10px;
+        left: 5px;
+    }
+    .authorization_divbutton .globalButton {
+        padding: 16px 25px;
+        font-size: 17px;
+        margin-bottom: 5px;
+    }
+    .authorization_button.globalButton {
+        padding: 16px 35px;
+        font-size: 17px;
+        border-radius: 30px;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .wrapper .authorization_textLink {
+        font-size: 15px;
+    }
+}

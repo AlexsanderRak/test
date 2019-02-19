@@ -1,0 +1,57 @@
+@import 'fonts.css';
+@import 'allStails.css';
+@import 'globalButton.css';
+@import 'globalInput.css';
+@import 'globalLink.css';
+
+.regFiz_divInput.globalInput {
+    width: 100%;
+    padding: 15px 5px;
+}
+
+.regFiz_divInput:hover {
+    background: rgb(206, 204, 204);
+}
+
+.regFiz_divInput:hover .regFiz_input {
+    background: rgb(206, 204, 204);
+}
+
+.regFiz_Link.globalLink {
+    padding: 17px 65px;
+}
+
+.regFiz_button.globalButton {
+    padding: 17px 85px;
+}
+
+
+@media (max-width: 400px) {
+    .regFiz_divInput.globalInput {
+        font-size: 18px;
+        padding: 10px 0px;
+    }
+    .regFiz_Link.globalLink {
+        padding: 17px 35px;
+        margin: 10px 0;
+    }
+
+    .regFiz_button.globalButton {
+        padding: 16px 35px;
+        margin-bottom: 30px;
+    }
+
+    .title {
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+
+    .regFiz_.divRow {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .regFiz_.divColumn_50 {
+        width: 100%;
+    }
+}
